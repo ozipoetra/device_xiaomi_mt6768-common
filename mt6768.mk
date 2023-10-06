@@ -271,6 +271,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     PowerOffAlarm
 
+# Protobuf
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-3.9.1-vendorcompat
+
 # Properties
 include $(LOCAL_PATH)/vendor_logtag.mk
 
