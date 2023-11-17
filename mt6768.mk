@@ -91,6 +91,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libsuspend
 
+PRODUCT_PACKAGES += \
+    libshim_showlogo
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
@@ -103,6 +106,9 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.1.vendor \
     android.hardware.drm@1.2.vendor \
     android.hardware.drm@1.3.vendor
+
+PRODUCT_PACKAGES += \
+    libdrm
 
 # Disable SF configstore
 PRODUCT_PACKAGES += \
@@ -434,3 +440,4 @@ PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 # the size of the system image. This has no bearing on stack traces, but will
 # leave less information available via JDWP.
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+
