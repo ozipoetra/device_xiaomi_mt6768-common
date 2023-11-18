@@ -189,8 +189,7 @@ PRODUCT_COPY_FILES += \
 
 # IR
 PRODUCT_PACKAGES += \
-    android.hardware.ir@1.0-impl \
-    android.hardware.ir@1.0-service
+    android.hardware.ir-service.mediatek
 
 # Inherit several Android Go Configurations (Beneficial for everyone, even on non-Go devices)
 PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
