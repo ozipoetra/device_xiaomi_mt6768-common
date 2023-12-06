@@ -364,7 +364,7 @@ PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor
 
 PRODUCT_PACKAGES += \
-    libsensorndkbridge_mtk
+    libsensorndkbridge
 
 # Shims
 PRODUCT_PACKAGES += \
