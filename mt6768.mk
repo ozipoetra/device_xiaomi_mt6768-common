@@ -391,6 +391,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RemovePackages
 
+# Add SGCam
+PRODUCT_PACKAGES += \
+    GCamPrebuilt
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0.vendor \
